@@ -493,7 +493,7 @@ alert("card: " + pickedCard2.card + " of " + pickedCard2.suit);
 ```
 
 Here, the `pickCard` function will return two different things based on what the user has passed in.
-If the users passes in an object that represents the deck, the function will pick the card.
+If the user passes in an object that represents the deck, the function will pick the card.
 If the user picks the card, we tell them which card they've picked.
 But how do we describe this to the type system?
 
